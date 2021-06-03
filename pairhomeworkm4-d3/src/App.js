@@ -5,10 +5,12 @@ import MyBadge from './component/MyBadge';
 import SingleBook from './component/SingleBook';
 import books from './data/books.json'
 import BookList from './component/BookList';
+import Search from './component/Search';
 
 function App() {
   return (
     <div className="App">
+      <Search/>
      <WarningSign title="exercise 1"/>
      <MyBadge color='success'/>
 
